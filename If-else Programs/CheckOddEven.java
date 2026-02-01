@@ -7,12 +7,16 @@ public class CheckOddEven {
     int num = sc.nextInt();
     sc.close();
 
-    if(num%2 == 0){
-      System.out.println(num + " is even number");
-    }
-    else{
-      System.out.println(num + " is odd number");
-    }
+    // if(num%2 == 0){
+    //   System.out.println(num + " is even number");
+    // }
+    // else{
+    //   System.out.println(num + " is odd number");
+    // }
 
+
+    // Using Ternary Operator
+    // condition ? true statement : false statement
+    System.out.println((num%2 == 0) ? "even number" : "odd number");
   }
 }
