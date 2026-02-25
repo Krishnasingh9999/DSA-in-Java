@@ -5,6 +5,7 @@ public class NumberSpiralZoomPattern {
     Scanner sc = new Scanner(System.in);
     System.out.print("please enter the number: ");
     int n = sc.nextInt();
+    sc.close();
 
     // Taking input n=4;
 
